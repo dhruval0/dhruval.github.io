@@ -12,7 +12,7 @@ const portfolioImg8 = require("../assets/project-9.png");
 
 function Portfolio(props) {
   return (
-    <article className="portfolio" data-page="portfolio">
+    <article className="portfolio active" data-page="portfolio">
       <header>
         <h2 className="h2 article-title">Portfolio</h2>
       </header>

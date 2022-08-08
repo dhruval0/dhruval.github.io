@@ -1,9 +1,10 @@
 import React from "react";
+import "../../src/pages/all_css_files/styles.css";
 
 function Contact(props) {
   return (
-    <div>
-      <article className="contact" data-page="contact">
+ 
+      <article className="contact active" data-page="contact">
         <header>
           <h2 className="h2 article-title">Contact</h2>
         </header>
@@ -59,7 +60,7 @@ function Contact(props) {
           </form>
         </section>
       </article>
-    </div>
+    
   );
 }
 

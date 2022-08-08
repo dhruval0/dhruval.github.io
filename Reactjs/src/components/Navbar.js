@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Navbar(props) {
+const Navbar = (props) => {
   const elementToggleFunc = (elem) => {
     elem.classList.toggle("active");
   };
+
   return (
     <nav className="navbar">
       <ul className="navbar-list">
@@ -60,6 +61,6 @@ function Navbar(props) {
       </ul>
     </nav>
   );
-}
+};
 
 export default Navbar;
