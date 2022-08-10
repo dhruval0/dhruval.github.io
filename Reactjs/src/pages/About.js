@@ -33,8 +33,7 @@ function About(props) {
           and user-friendly but at the same time attractive. Moreover, I add
           personal touch to your product and make sure that is eye-catching and
           easy to use. My aim is to bring across your message and identity in
-          the most creative way. I created web design for many famous brand
-          companies.
+          the most creative way.
         </p>
       </section>
 
@@ -57,19 +56,25 @@ function About(props) {
             <span>Flask</span>
           </li>
           <li>
+            <span>Jenkins</span>
+          </li>
+          <li>
             <span>PostgreSQL</span>
           </li>
           <li>
-            <span>Selenium</span>
+            <span>MySQL</span>
           </li>
           <li>
-            <span>Scrapy</span>
+            <span>Selenium</span>
           </li>
           <li>
             <span>SQ-Lite</span>
           </li>
           <li>
             <span>Mongo-DB</span>
+          </li>
+          <li>
+            <span>Scrapy</span>
           </li>
           <li>
             <span>Java</span>
@@ -84,6 +89,9 @@ function About(props) {
             <span>Nginx</span>
           </li>
           <li>
+            <span>Apache</span>
+          </li>
+          <li>
             <span>Gunicorn</span>
           </li>
           <li>
@@ -96,7 +104,13 @@ function About(props) {
             <span>Gensim</span>
           </li>
           <li>
+            <span>Git</span>
+          </li>
+          <li>
             <span>Github</span>
+          </li>
+          <li>
+            <span>GitLab</span>
           </li>
           <li>
             <span>BitBucket</span>
@@ -120,7 +134,7 @@ function About(props) {
       </section>
 
       <section className="service">
-        <h3 className="h3 service-title">What i'm doing</h3>
+        <h3 className="h3 service-title">What I'm doing</h3>
 
         <ul className="service-list">
           <li className="service-item">
